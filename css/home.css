@@ -98,6 +98,8 @@ body {
 
 .menu-bar .search-container {
     float: right;
+    max-width: 350px;
+    max-height: 52px;
 }
 
 .menu-bar input[type=text] {
@@ -125,6 +127,8 @@ body {
     .menu-bar .search-container {
         float: none;
         display: none;
+        max-width: none;
+        max-height: none;
     }
     .menu-bar a.icon {
         float: right;

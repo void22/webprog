@@ -25,10 +25,11 @@
             <a <?php echo (($page == $find) ? 'class="menu-item active-menu-item"' : 'class="menu-item"') ?> href="<?php echo ($url == '/') ? '.' : ('?page=' . $page['file']) ?>"><?php echo $page['text']; ?></a>
             <?php }} ?>
             <div class="search-container">
-                <form action="." method="GET">
+                <gcse:search></gcse:search>
+                <!-- <form action="." method="GET">
                     <input type="text" placeholder="Keresés..." name="search">
                     <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
+                </form> -->
             </div>
             <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
                 <i class="fa fa-bars"></i>
@@ -87,5 +88,16 @@
             <h4>Ez a weboldal egyetemi projekt munka keretében készült. A KÖZGÉP-CVSE Judo Szakosztály igazi honlapja <a href="https://judocegled.ewk.hu/" target="_blank">itt</a> érhető el.</h4>
         </footer>
         <script src="js/home.js"></script>
+        <script>
+            (function() {
+                var cx = '001114632172605595771:rju70ovf-qc';
+                var gcse = document.createElement('script');
+                gcse.type = 'text/javascript';
+                gcse.async = true;
+                gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(gcse, s);
+            })();
+        </script>                         
     </body>
 </html>
