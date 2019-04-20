@@ -1,0 +1,12 @@
+article {
+    color: white;
+    padding: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+article .quote {
+    width: 300px;
+    text-align: justify;
+    text-justify: inter-word;
+}

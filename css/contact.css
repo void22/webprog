@@ -1,0 +1,58 @@
+.white {
+    color: white;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.left-margin {
+    margin-left: 8px;
+}
+
+.hidden {
+    display: none;
+}
+
+.error {
+    color: white;
+    background-color: #F44336;
+    margin: 7px;
+    padding: 1px 8px 1px 8px;
+}
+
+.contact input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+textarea {
+    min-height: 200px;
+}
+
+input[type=submit] {
+    background-color: #115779;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #5FA5C7;
+}
+
+.contact input[type=submit] {
+    margin-left: 15px;
+}
