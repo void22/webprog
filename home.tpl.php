@@ -70,7 +70,7 @@
                         <h3>Galéria</h3>
                     </header>
                     <div class="container" id="login-panel">
-                        <p>Tekintse meg <a href=".">galériánkat</a> további képekért!</p>
+                        <p>Tekintse meg <a href="index.php?page=gallery">galériánkat</a> további képekért!</p>
                     </div>
                 </div>
                 <div class="container sidebar-panel">

@@ -16,7 +16,8 @@ $pages = array(
     'login' => array('file' => 'login', 'text' => 'Bejelentkezés', 'type' => 'menu'),
     'register' => array('file' => 'register', 'text' => 'Regisztráció', 'type' => 'link'),
     'logout' => array('file' => 'logout', 'text' => 'Kijelentkezés', 'type' => 'link'),
-    'messages' => array('file' => 'messages', 'text' => 'Üzenetek', 'type' => 'link')
+    'messages' => array('file' => 'messages', 'text' => 'Üzenetek', 'type' => 'link'),
+    'gallery' => array('file' => 'gallery', 'text' => 'Galéria', 'type' => 'link')
 );
 
 if (isset($_SESSION['user_id']))
